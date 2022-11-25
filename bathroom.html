@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+</head>
+<style>
+img {
+    margin-top: 35px;
+    height: 300px;
+    width: 400px;
+}
+
+body {
+    background: linear-gradient(deepskyblue 0%, deeppink 50%, red 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1000px;
+}
+
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+button {
+    background: grey;
+    color: black !important;
+    font-weight: 900;
+    float: right;
+    margin: 10px;
+}
+
+a {
+    color: black;
+}
+
+canvas {
+    border: 10px 10px 10px grey;
+    border-style: solid;
+}
+</style>
+<body>
+    <center>
+        <h1 class="btn btn-info heading">Object Detection Bedroom</h1>
+        <h3 id="status" class="btn btn-danger"></h3>
+        <button> <a href="index.html">Back</a></button>
+    </center>
+    <script src="bathroom.js"></script>
+</body>
+</html>
