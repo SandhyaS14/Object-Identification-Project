@@ -2,7 +2,7 @@ img = "";
 status = "";
 objects = [];
 function preload() {
-    img = loadImage("Bathroom.jpg");
+    img = loadImage("kitchen.jpg");
 }
 
 function setup() {
@@ -27,7 +27,7 @@ function draw() {
             rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
             fill(r, g, b);
             text(objects[i].label + " " + percent + "%", objects[i].x + 5, objects[i].y + 15);
-            document.getElementById("status").innerHTML = "Out of 5 objects, 2 objects were identified."
+            document.getElementById("status").innerHTML = "Out of 6 objects, 3 objects were identified."
         }
     }
 }

@@ -27,7 +27,7 @@ function draw() {
             rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
             fill(r, g, b);
             text(objects[i].label + " " + percent + "%", objects[i].x + 5, objects[i].y + 15);
-            document.getElementById("status").innerHTML = "Objects Detected";
+            document.getElementById("status").innerHTML = "Out of 6 objects, 3 objects were identified."
         }
     }
 }
